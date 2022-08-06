@@ -1,53 +1,47 @@
 package net.javaguides.hibernate.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.*;
+
 
 @Entity
-@Table(name="project")
+@Table(name = "project")
 public class Project {
 
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="id")
-	private int id;
-	
-	@Column(name="project_name")
-	private String projectName;
-	
-	@Enumerated(EnumType.STRING)
-	@Column(name="project_status")
-	private ProjectStatus projectStatus;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private int id;
 
-	public int getId() {
-		return id;
-	}
+    @Column(name = "project_name")
+    private String projectName;
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    @Enumerated(EnumType.STRING)
+    @Column(name = "project_status")
+    private ProjectStatus projectStatus;
 
-	public String getProjectName() {
-		return projectName;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void setProjectName(String projectName) {
-		this.projectName = projectName;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public ProjectStatus getProjectStatus() {
-		return projectStatus;
-	}
+    public String getProjectName() {
+        return projectName;
+    }
 
-	public void setProjectStatus(ProjectStatus projectStatus) {
-		this.projectStatus = projectStatus;
-	}
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
+    }
+
+    public ProjectStatus getProjectStatus() {
+        return projectStatus;
+    }
+
+    public void setProjectStatus(ProjectStatus projectStatus) {
+        this.projectStatus = projectStatus;
+    }
 }
 
 
