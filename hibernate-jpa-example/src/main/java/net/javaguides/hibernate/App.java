@@ -1,7 +1,7 @@
 package net.javaguides.hibernate;
 
-import javax.persistence.EntityManager;
 
+import jakarta.persistence.EntityManager;
 import net.javaguides.hibernate.entity.Student;
 import net.javaguides.hibernate.util.JPAUtil;
 
