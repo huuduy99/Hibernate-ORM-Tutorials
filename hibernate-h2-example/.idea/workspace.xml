@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e74a23d7-ff70-4e34-b699-7726cb4769c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/entity/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/entity/Demo1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/entity/Student1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/hibernate/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/javaguides/hibernate/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/java/net/javaguides/hibernate/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/META-INF/maven/net.javaguides.hibernate/hibernate-xml-config-example/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/META-INF/maven/net.javaguides.hibernate/hibernate-xml-config-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/net/javaguides/hibernate/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/net/javaguides/hibernate/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/net/javaguides/hibernate/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/net/javaguides/hibernate/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/net/javaguides/hibernate/util/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-helloworld-example/target/classes/net/javaguides/hibernate/util/HibernateUtil.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CAsrd8ITDMebyp24WfAoNoh4i7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Resource/Gitvsc/Spring/Hibernate-ORM-Tutorials/hibernate-helloworld-example",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.hibernate.App" />
+      <module name="hibernate-helloworld-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="E:/cloud/OneDrive/Desktop/New folder/a.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="E:/cloud/OneDrive/Desktop/New folder" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Shell Script.a.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e74a23d7-ff70-4e34-b699-7726cb4769c4" name="Changes" comment="" />
+      <created>1658256924396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658256924396</updated>
+    </task>
+    <servers />
+  </component>
+</project>

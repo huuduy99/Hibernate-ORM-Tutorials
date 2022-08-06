@@ -1,6 +1,7 @@
 package net.javaguides.hibernate.entity;
 
-import javax.persistence.Embeddable;
+
+import jakarta.persistence.Embeddable;
 
 @Embeddable
 public class Name {

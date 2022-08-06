@@ -1,6 +1,7 @@
 package net.javaguides.hibernate.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 
 /**
  * Created by ramesh
@@ -8,59 +9,58 @@ import javax.persistence.*;
 @Entity
 @Table(name = "users")
 public class User {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-	@Embedded
-	private Name name;
+    @Embedded
+    private Name name;
 
-	private String email;
+    private String email;
 
-	@Embedded
-	@AttributeOverrides(value = { @AttributeOverride(name = "addressLine1", column = @Column(name = "house_number")),
-			@AttributeOverride(name = "addressLine2", column = @Column(name = "street")) })
-	private Address address;
+    @Embedded
+    @AttributeOverrides(value = {@AttributeOverride(name = "addressLine1", column = @Column(name = "house_number")), @AttributeOverride(name = "addressLine2", column = @Column(name = "street"))})
+    private Address address;
 
-	public User() {
+    public User() {
 
-	}
+    }
 
-	public User(Name name, String email, Address address) {
-		this.name = name;
-		this.email = email;
-		this.address = address;
-	}
+    public User(Name name, String email, Address address) {
+        this.name = name;
+        this.email = email;
+        this.address = address;
+    }
 
-	public Long getId() {
-		return id;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public Name getName() {
-		return name;
-	}
+    public Name getName() {
+        return name;
+    }
 
-	public void setName(Name name) {
-		this.name = name;
-	}
+    public void setName(Name name) {
+        this.name = name;
+    }
 
-	public String getEmail() {
-		return email;
-	}
+    public String getEmail() {
+        return email;
+    }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
-	public Address getAddress() {
-		return address;
-	}
+    public Address getAddress() {
+        return address;
+    }
 
-	public void setAddress(Address address) {
-		this.address = address;
-	}
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 }
