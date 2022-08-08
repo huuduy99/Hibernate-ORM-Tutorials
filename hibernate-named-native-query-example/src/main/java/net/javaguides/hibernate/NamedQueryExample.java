@@ -34,7 +34,7 @@ public class NamedQueryExample {
 
 		} catch (Exception e) {
 			if (transaction != null) {
-				transaction.rollback();
+//				transaction.rollback();
 			}
 			e.printStackTrace();
 		}
