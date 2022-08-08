@@ -1,19 +1,19 @@
 package net.javaguides.hibernate.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.PrimaryKeyJoinColumn;
 
-@Entity(name="DebitAccount")
+import jakarta.persistence.*;
+
+@Entity(name = "DebitAccount")
 @PrimaryKeyJoinColumn(name = "account_id")
 public class DebitAccount extends Account {
 
-	private double overdraftFee;
+    private double overdraftFee;
 
-	public double getOverdraftFee() {
-		return overdraftFee;
-	}
+    public double getOverdraftFee() {
+        return overdraftFee;
+    }
 
-	public void setOverdraftFee(double overdraftFee) {
-		this.overdraftFee = overdraftFee;
-	}
+    public void setOverdraftFee(double overdraftFee) {
+        this.overdraftFee = overdraftFee;
+    }
 }
