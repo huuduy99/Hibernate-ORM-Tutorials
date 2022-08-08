@@ -1,62 +1,59 @@
 package net.javaguides.hibernate.entity;
 
+import jakarta.persistence.*;
+
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
 @Entity
 public class SimpleEntity {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "id", updatable = false, nullable = false)
-	private Long id;
-	
-	@Column
-	private LocalDate date;
-	
-	@Column
-	private LocalDateTime dateTime;
-	
-	@Column
-	private Duration duration;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", updatable = false, nullable = false)
+    private Long id;
 
-	public Long getId() {
-		return id;
-	}
+    @Column
+    private LocalDate date;
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    @Column
+    private LocalDateTime dateTime;
 
-	public LocalDate getDate() {
-		return date;
-	}
+    @Column
+    private Duration duration;
 
-	public void setDate(LocalDate date) {
-		this.date = date;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public LocalDateTime getDateTime() {
-		return dateTime;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public void setDateTime(LocalDateTime dateTime) {
-		this.dateTime = dateTime;
-	}
+    public LocalDate getDate() {
+        return date;
+    }
 
-	public Duration getDuration() {
-		return duration;
-	}
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
 
-	public void setDuration(Duration duration) {
-		this.duration = duration;
-	}
+    public LocalDateTime getDateTime() {
+        return dateTime;
+    }
+
+    public void setDateTime(LocalDateTime dateTime) {
+        this.dateTime = dateTime;
+    }
+
+    public Duration getDuration() {
+        return duration;
+    }
+
+    public void setDuration(Duration duration) {
+        this.duration = duration;
+    }
 }
 
