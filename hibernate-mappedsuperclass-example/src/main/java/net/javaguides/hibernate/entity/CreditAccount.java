@@ -1,6 +1,7 @@
 package net.javaguides.hibernate.entity;
 
-import javax.persistence.Entity;
+
+import jakarta.persistence.Entity;
 
 @Entity(name="CreditAccount")
 public class CreditAccount extends Account {
