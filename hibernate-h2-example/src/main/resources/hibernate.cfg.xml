@@ -5,14 +5,17 @@
     <session-factory>
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">org.h2.Driver</property>
-        <property name="connection.url">jdbc:h2:mem:test</property>
-        <property name="connection.username">sa</property>
+        <property name="connection.url">jdbc:h2:mem:exampledb2</property>
+        <property name="connection.username">root</property>
         <property name="connection.password"></property>
-        
-        <!-- JDBC connection pool settings ... using built-in test pool -->
-        <property name="connection.pool_size">1</property>
+        <property name="spring.h2.console.enabled">true</property>
+
         <!-- Select our SQL dialect -->
         <property name="dialect">org.hibernate.dialect.H2Dialect</property>
+
+        <!-- JDBC connection pool settings ... using built-in test pool -->
+        <property name="connection.pool_size">1</property>
+
         <!-- Echo the SQL to stdout -->
         <property name="show_sql">true</property>
         <!-- Set the current session context -->
@@ -25,6 +28,6 @@
         <property name="hibernate.dbcp.maxIdle">10</property>
         <property name="hibernate.dbcp.minIdle">5</property>
         <property name="hibernate.dbcp.maxWaitMillis">-1</property>
-        <mapping class="net.javaguides.hibernate.entity.Student" />
+        <mapping class="net.javaguides.hibernate.entity.Student"/>
     </session-factory>
 </hibernate-configuration>
