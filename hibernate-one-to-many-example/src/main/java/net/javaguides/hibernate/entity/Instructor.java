@@ -31,7 +31,7 @@ public class Instructor {
     private String email;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List < Course > courses = new ArrayList < Course > ();
+    private List<Course> courses = new ArrayList<Course>();
 
     public Instructor() {
 
@@ -75,11 +75,11 @@ public class Instructor {
         this.email = email;
     }
 
-    public List < Course > getCourses() {
+    public List<Course> getCourses() {
         return courses;
     }
 
-    public void setCourses(List < Course > courses) {
+    public void setCourses(List<Course> courses) {
         this.courses = courses;
     }
 }

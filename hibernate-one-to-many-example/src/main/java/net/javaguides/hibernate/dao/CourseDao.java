@@ -1,10 +1,11 @@
 package net.javaguides.hibernate.dao;
 
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+
 
 import net.javaguides.hibernate.entity.Course;
 import net.javaguides.hibernate.util.HibernateUtil;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 public class CourseDao {
 	public void saveCourse(Course course) {

@@ -29,7 +29,7 @@ public class HibernateUtil {
 				settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
 				settings.put(Environment.URL, "jdbc:mysql://localhost:3306/hibernate_db?useSSL=false");
 				settings.put(Environment.USER, "root");
-				settings.put(Environment.PASS, "root");
+				settings.put(Environment.PASS, "123456");
 				settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5InnoDBDialect");
 
 				settings.put(Environment.SHOW_SQL, "true");
