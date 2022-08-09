@@ -4,17 +4,22 @@ import net.javaguides.hibernate.dao.InstructorDao;
 import net.javaguides.hibernate.entity.Instructor;
 import net.javaguides.hibernate.entity.InstructorDetail;
 
+
 public class ManApp {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Instructor instructor = new Instructor("Madhu", "Patel", "madhu@luv2code.com");
+        Instructor instructor = new Instructor("Madhu", "Patel", "madhu@luv2code.com");
 
-		InstructorDetail instructorDetail = new InstructorDetail("http://www.youtube.com", "Guitar");
+        InstructorDetail instructorDetail = new InstructorDetail("http://www.youtube.com", "Guitar");
 
-		// associate the objects
-		instructor.setInstructorDetail(instructorDetail);
+        // associate the objects
+        instructor.setInstructorDetail(instructorDetail);
 
-		InstructorDao instructorDao = new InstructorDao();
-		instructorDao.saveInstructor(instructor);
-	}
+        InstructorDao instructorDao = new InstructorDao();
+        instructorDao.saveInstructor(instructor);
+
+        Instructor instructor1 = instructorDao.getInstructor(1);
+
+//        instructorDao.deleteInstructor(instructor1.getId());
+    }
 }
